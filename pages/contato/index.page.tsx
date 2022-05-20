@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import styles from "../Home.module.scss";
+import styles from "./Contato.module.scss";
 
 const Contato: NextPage = () => {
   return (
@@ -12,24 +12,10 @@ const Contato: NextPage = () => {
         <link href="http://fonts.cdnfonts.com/css/avegra" rel="stylesheet" />
       </Head>
 
-      <header className={styles.header}>isabela alves</header>
+      <header className={styles.header}>isabela alves - contato</header>
       <main className={styles.main}>
         <div className={styles.content}>
-          <div className={styles.divisor} />
-          <div className={styles.linkWrapper}>
-            <a href="/sobre-mim" className={styles.link}>
-              sobre mim
-            </a>
-            <a href="/portfolio" className={styles.link}>
-              portfolio
-            </a>
-            <a href="/curriculo" className={styles.link}>
-              curriculo
-            </a>
-            <a href="/contato" className={styles.link}>
-              contato
-            </a>
-          </div>
+          <span>Contato</span>
         </div>
         <footer className={styles.footer}>
           Isabela Alves, 2022 - Todos os direitos reservados ©
