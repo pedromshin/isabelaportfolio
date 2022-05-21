@@ -23,6 +23,27 @@
       font-size: 24px;
       line-height: 29px;
       text-align: center;
+      margin-bottom: 100px;
+    }
+
+    .itemsWrapper {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+
+      .gridItem {
+        margin-bottom: 70px;
+        width: fit-content;
+
+        .gridItemTitle {
+          font-family: Arial, Helvetica, sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 29px;
+          text-align: center;
+          margin-top: 20px;
+        }
+      }
     }
   }
 }

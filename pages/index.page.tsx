@@ -20,7 +20,7 @@ const Home: NextPage = () => {
 
       <Header />
       <main className={styles.main}>
-        <div className={styles.content}>
+        <section className={styles.content}>
           <h1 className={styles.title}>quem sou eu?</h1>
           <div className={styles.image}>
             <Image
@@ -48,9 +48,9 @@ const Home: NextPage = () => {
             Se quiser saber mais sobre meu trabalho vá para a página de
             <strong> portifólio</strong>.
           </p>
-        </div>
-        <Footer />
+        </section>
       </main>
+      <Footer />
     </>
   );
 };
