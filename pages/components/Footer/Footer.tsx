@@ -14,7 +14,7 @@ function Footer() {
         <a href="https://www.behance.net/isabelalvesz">
           <BehanceSVG className={styles.socialButton} />
         </a>
-        <a href="/">
+        <a href="https://www.instagram.com/lisartisy/?igshid=YmMyMTA2M2Y=">
           <InstagramSVG className={styles.socialButton} />
         </a>
       </div>
