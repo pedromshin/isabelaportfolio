@@ -3,7 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "./Home.module.scss";
 
-import homePhoto from "./images/home_photo.jpg";
+import homePhoto from "../public/home_photo.jpg";
 
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
