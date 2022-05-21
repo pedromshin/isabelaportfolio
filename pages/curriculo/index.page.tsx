@@ -1,6 +1,8 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import styles from "./Curriculo.module.scss";
+import Header from "../components/Header/Header";
+
 
 const Curriculo: NextPage = () => {
   return (
@@ -12,7 +14,7 @@ const Curriculo: NextPage = () => {
         <link href="http://fonts.cdnfonts.com/css/avegra" rel="stylesheet" />
       </Head>
 
-      <header className={styles.header}>isabela alves - Curriculo</header>
+      <Header />
       <main className={styles.main}>
         <div className={styles.content}>
           <span>Curriculo</span>

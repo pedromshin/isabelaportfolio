@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import styles from "./Contato.module.scss";
+import Header from "../components/Header/Header";
 
 const Contato: NextPage = () => {
   return (
@@ -12,7 +13,7 @@ const Contato: NextPage = () => {
         <link href="http://fonts.cdnfonts.com/css/avegra" rel="stylesheet" />
       </Head>
 
-      <header className={styles.header}>isabela alves - contato</header>
+      <Header/>
       <main className={styles.main}>
         <div className={styles.content}>
           <span>Contato</span>

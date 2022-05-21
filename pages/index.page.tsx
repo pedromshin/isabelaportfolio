@@ -5,6 +5,8 @@ import styles from "./Home.module.scss";
 
 import bannerPic1 from "./images/rect.png";
 
+import Header from "./components/Header/Header";
+
 const Home: NextPage = () => {
   return (
     <>
@@ -15,7 +17,7 @@ const Home: NextPage = () => {
         <link href="http://fonts.cdnfonts.com/css/avegra" rel="stylesheet" />
       </Head>
 
-      <header className={styles.header}>isabela alves - home</header>
+      <Header />
       <main className={styles.main}>
         <div className={styles.content}>
           <div className={styles.linkWrapper}>

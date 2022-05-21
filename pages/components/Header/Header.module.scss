@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 87%;
+
+  .title {
+    font-size: 48px;
+    line-height: 90px;
+    color: #ef3b50;
+  }
+
+  .links {
+    font-size: 32px;
+    line-height: 36px;
+
+    .link {
+      margin-right: 20px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
