@@ -3,7 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "./Home.module.scss";
 
-import bannerPic1 from "./images/rect.png";
+import homePhoto from "./images/home_photo.jpg";
 
 import Header from "./components/Header/Header";
 
@@ -20,43 +20,28 @@ const Home: NextPage = () => {
       <Header />
       <main className={styles.main}>
         <div className={styles.content}>
-          <div className={styles.linkWrapper}>
-            <div className={styles.divisor} />
-            <div className={styles.linkList}>
-              <a href="/sobre-mim" className={styles.link}>
-                sobre mim
-              </a>
-              <a href="/portfolio" className={styles.link}>
-                portfolio
-              </a>
-              <a href="/curriculo" className={styles.link}>
-                curriculo
-              </a>
-              <a href="/contato" className={styles.link}>
-                contato
-              </a>
-            </div>
+          <h1 className={styles.title}>quem sou eu?</h1>
+          <div className={styles.image}>
+            <Image src={homePhoto} alt="home page photo" layout="fixed" />
           </div>
-          <div className={styles.imageWrapper}>
-            <div className={styles.image1}>
-              <Image
-                alt="banner image"
-                src={bannerPic1}
-                layout="fixed"
-                width={350}
-                height={440}
-              />
-            </div>
-            <div className={styles.image2}>
-              <Image
-                alt="banner image"
-                src={bannerPic1}
-                layout="fixed"
-                width={350}
-                height={440}
-              />
-            </div>
-          </div>
+          <p className={styles.description}>
+            Oie!! Me chamo Isabela Alves, tenho 21 anos e sempre fui apaixonada
+            por mídias digitais e criação artística. Desde os 12 anos tenho
+            feito cursos de desenho, pintura, e, atualmente, graduação em Design
+            Gráfico.
+            <br />
+            <br />
+            Me interesso também por ferramentas tecnológicas profissionais de
+            produção artística.
+            <br />
+            <br />
+            Sou engajada em temas como feminismo, movimento LGBTQIA+ e outros
+            temas de igualdade social.
+            <br />
+            <br />
+            Se quiser saber mais sobre meu trabalho vá para a página de
+            <strong> portifólio</strong>.
+          </p>
         </div>
         <footer className={styles.footer}>
           Isabela Alves, 2022 - Todos os direitos reservados ©

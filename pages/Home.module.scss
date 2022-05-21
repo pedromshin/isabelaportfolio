@@ -8,62 +8,35 @@
 }
 
 .main {
-  background: #ff8795;
-
   .content {
-    max-width: 87%;
+    max-width: 917px;
+    width: 87%;
     margin: 0 auto;
-    padding: 180px 0 80px;
+    padding: 150px 0;
     display: flex;
     position: relative;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
 
-    .linkWrapper {
-      display: flex;
-      flex: 1;
-
-      .divisor {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 5px;
-        height: 100%;
-        background: #e9b5b5;
-      }
-
-      .linkList {
-        display: flex;
-        flex-direction: column;
-        margin: 137px 0 137px 67px;
-
-        .link {
-          font-size: 64px;
-          line-height: 72px;
-          margin: 10px 0;
-        }
-      }
+    .title {
+      font-weight: 400;
+      font-size: 55px;
+      line-height: 62px;
+      margin: 0;
     }
 
-    .imageWrapper {
-      position: relative;
-      right: 0;
-      display: flex;
-      flex-direction: column;
-      flex: 2;
+    .image {
+      margin: 80px auto;
+    }
 
-      .image1 {
-        border: 4px solid rgb(52 72 158) !important;
-        position: absolute;
-        right: 170px;
-        z-index: 3;
-      }
-
-      .image2 {
-        border: 4px solid rgb(32 163 54) !important;
-        position: absolute;
-        right: 0;
-        top: 270px;
-        z-index: 2;
-      }
+    .description {
+      font-family: Arial, Helvetica, sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 29px;
+      margin: 0;
     }
   }
 }
