@@ -16,9 +16,76 @@ const Curriculo: NextPage = () => {
 
       <Header />
       <main className={styles.main}>
-        <div className={styles.content}>
-          <h1 className={styles.title}>curriculo</h1>
-        </div>
+        <section className={styles.content}>
+          <h1 className={styles.title}>currículo</h1>
+          <ul className={styles.curriculum}>
+            <li className={styles.curriculumSection}>
+              <span className={styles.curriculumSectionTitle}>
+                Formação acadêmica
+              </span>
+              <div className={styles.divisor} />
+              <ul className={styles.firstCurriculumSection}>
+                <li>
+                  <p className={styles.firstCurriculumItemDescription}>
+                    2019 - 2021 (não concluído) •
+                    <strong>
+                      {" "}
+                      Universidade Federal Rural do Rio de Janeiro
+                    </strong>
+                    : Graduação em Hotelaria
+                  </p>
+                </li>
+                <li>
+                  <p className={styles.firstCurriculumItemDescription}>
+                    2021 - 2023 •{" "}
+                    <strong> Universidade Veiga de Almeida</strong>: Graduação
+                    em Design Gráfico
+                  </p>
+                </li>
+              </ul>
+            </li>
+            <li className={styles.curriculumSection}>
+              <span className={styles.curriculumSectionTitle}>Experiência</span>
+              <div className={styles.divisor} />
+              <ul className={styles.secondCurriculumSection}>
+                <li className={styles.secondCurriculumItem}>
+                  <span>• Capas de livros</span>
+                  <span className={styles.secondCurriculumItemDescription}>
+                    Design e ilustração de duas capas de livros publicados;
+                  </span>
+                </li>
+                <li className={styles.secondCurriculumItem}>
+                  <span className={styles.curriculumItemDescription}>
+                    • Logomarca de uma empresa de construção civil
+                  </span>
+                  <span className={styles.secondCurriculumItemDescription}>
+                    Criação da logo da empresa e design da identidade visual;
+                  </span>
+                </li>
+                <li className={styles.secondCurriculumItem}>
+                  <span className={styles.curriculumItemDescription}>
+                    • Ilustrações para um livro
+                  </span>
+                  <span className={styles.secondCurriculumItemDescription}>
+                    Criação de mini-posters e marcadores de página de
+                    personagens utilizando a ferramenta digital Photoshop para
+                    um livro a ser publicado;{" "}
+                  </span>
+                </li>
+                <li className={styles.secondCurriculumItem}>
+                  <span className={styles.curriculumItemDescription}>
+                    • Layout de website com criações próprias
+                  </span>
+                  <span className={styles.secondCurriculumItemDescription}>
+                    Design de telas para um Website ainda não publicado,
+                    utilizando o Illustrator para a criação de ilustrações e o
+                    Figma para editar o projeto para o navegador web.{" "}
+                  </span>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </section>
         <Footer />
       </main>
     </>

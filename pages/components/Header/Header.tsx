@@ -12,7 +12,7 @@ function Header() {
           portfolio{" "}
         </a>
         <a href="/curriculo" className={styles.link}>
-          curriculo{" "}
+          currículo{" "}
         </a>
         <a href="/contato" className={styles.link}>
           contato{" "}
