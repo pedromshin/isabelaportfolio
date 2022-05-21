@@ -3,6 +3,8 @@ import Head from "next/head";
 import styles from "./Curriculo.module.scss";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
+import FullSVG from "../images/full_bar.svg";
+import HalfSVG from "../images/half_bar.svg";
 
 const Curriculo: NextPage = () => {
   return (
@@ -83,6 +85,50 @@ const Curriculo: NextPage = () => {
                   </span>
                 </li>
               </ul>
+            </li>
+            <li className={styles.curriculumSection}>
+              <span className={styles.curriculumSectionTitle}>Habilidades</span>
+              <div className={styles.divisor} />
+              <table className={styles.thirdCurriculumSection}>
+                <thead>
+                  <tr className={styles.tableHeadRow}>
+                    <th className={styles.tableHeadItem}>Pacote Adobe</th>
+                    <th className={styles.tableHeadItem}>Pacote Microsoft</th>
+                    <th className={styles.tableHeadItem}>Figma</th>
+                    <th className={styles.tableHeadItem}>Línguas</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td className={styles.tableData}>
+                      <strong>• Photoshop</strong> Avançado
+                    </td>
+                    <td className={styles.tableData}>Avançado</td>
+                    <td className={styles.tableData}>Intermediário</td>
+                    <td className={styles.tableData}>
+                      <strong>• Inglês</strong> Avançado
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className={styles.tableData}>
+                      <strong>• Illustrator</strong> Avançado
+                    </td>
+                    <td className={styles.tableData}></td>
+                    <td className={styles.tableData}></td>
+                    <td className={styles.tableData}>
+                      <strong>• Espanhol</strong> Intermediário
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className={styles.tableData}>
+                      <strong>• After Effects</strong> Intermediário
+                    </td>
+                    <td className={styles.tableData}></td>
+                    <td className={styles.tableData}></td>
+                    <td className={styles.tableData}></td>
+                  </tr>
+                </tbody>
+              </table>
             </li>
           </ul>
         </section>
