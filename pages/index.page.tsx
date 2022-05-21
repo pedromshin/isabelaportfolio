@@ -52,7 +52,10 @@ const Home: NextPage = () => {
             <br />
             <br />
             Se quiser saber mais sobre meu trabalho vá para a página de
-            <strong> portifólio</strong>.
+            <strong>
+              <a href="/portfolio">portfólio</a>
+            </strong>
+            .
           </p>
         </section>
       </main>
