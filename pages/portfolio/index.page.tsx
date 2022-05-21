@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 import styles from "./Portfolio.module.scss";
 
@@ -13,14 +14,12 @@ const Portfolio: NextPage = () => {
         <link href="http://fonts.cdnfonts.com/css/avegra" rel="stylesheet" />
       </Head>
 
-      <Header/>
+      <Header />
       <main className={styles.main}>
         <div className={styles.content}>
           <span>Portfolio</span>
         </div>
-        <footer className={styles.footer}>
-          Isabela Alves, 2022 - Todos os direitos reservados ©
-        </footer>
+        <Footer />
       </main>
     </>
   );

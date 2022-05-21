@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import styles from "./Curriculo.module.scss";
 import Header from "../components/Header/Header";
-
+import Footer from "../components/Footer/Footer";
 
 const Curriculo: NextPage = () => {
   return (
@@ -19,9 +19,7 @@ const Curriculo: NextPage = () => {
         <div className={styles.content}>
           <span>Curriculo</span>
         </div>
-        <footer className={styles.footer}>
-          Isabela Alves, 2022 - Todos os direitos reservados ©
-        </footer>
+        <Footer />
       </main>
     </>
   );

@@ -6,6 +6,7 @@ import styles from "./Home.module.scss";
 import homePhoto from "./images/home_photo.jpg";
 
 import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 
 const Home: NextPage = () => {
   return (
@@ -43,9 +44,7 @@ const Home: NextPage = () => {
             <strong> portifólio</strong>.
           </p>
         </div>
-        <footer className={styles.footer}>
-          Isabela Alves, 2022 - Todos os direitos reservados ©
-        </footer>
+        <Footer />
       </main>
     </>
   );
