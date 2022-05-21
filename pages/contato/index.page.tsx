@@ -41,7 +41,12 @@ const Contato: NextPage = () => {
             <label className={styles.label}>
               seu email:
               <br />
-              <input type="email" name="" id="" className={inputEmailClass} />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                className={inputEmailClass}
+              />
             </label>
             <br />
             <label className={styles.label}>
@@ -56,7 +61,7 @@ const Contato: NextPage = () => {
             </label>
             <br />
             <button type="submit" className={styles.submitButton}>
-              Enviar
+              <strong>enviar</strong>
             </button>
           </form>
           <h1 className={styles.title}>me siga nas redes sociais</h1>

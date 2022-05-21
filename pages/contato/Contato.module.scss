@@ -22,7 +22,7 @@
       margin: 0 auto 100px;
 
       .label {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: Montserrat, sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 20px;
@@ -47,11 +47,11 @@
 
         &.inputName {
           max-width: 190px;
-          height: revert;
+          height: 30px;
         }
 
         &.inputEmail {
-          height: 20px;
+          height: 30px;
         }
       }
 
@@ -66,6 +66,8 @@
         transition: box-shadow 0.3s;
         padding: 6px 9px;
         text-transform: lowercase;
+        font-family: Montserrat, sans-serif;
+        font-size: 18px;
 
         &:focus {
           box-shadow: 0 0 10px rgb(0 0 0 / 30%);
