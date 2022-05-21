@@ -23,7 +23,12 @@ const Home: NextPage = () => {
         <div className={styles.content}>
           <h1 className={styles.title}>quem sou eu?</h1>
           <div className={styles.image}>
-            <Image src={homePhoto} alt="home page photo" layout="fixed" />
+            <Image
+              src={homePhoto}
+              alt="home page photo"
+              layout="fixed"
+              priority
+            />
           </div>
           <p className={styles.description}>
             Oie!! Me chamo Isabela Alves, tenho 21 anos e sempre fui apaixonada
