@@ -17,7 +17,10 @@ const Portfolio: NextPage = () => {
       <Header />
       <main className={styles.main}>
         <div className={styles.content}>
-          <span>Portfolio</span>
+          <h1 className={styles.title}>portfolio</h1>
+          <span className={styles.description}>
+            você pode ver muito mais no meu <strong>behance</strong>!
+          </span>
         </div>
         <Footer />
       </main>

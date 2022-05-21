@@ -17,7 +17,7 @@ const Contato: NextPage = () => {
       <Header />
       <main className={styles.main}>
         <div className={styles.content}>
-          <span>Contato</span>
+          <h1 className={styles.title}>se quiser falar comigo:</h1>
         </div>
         <Footer />
       </main>

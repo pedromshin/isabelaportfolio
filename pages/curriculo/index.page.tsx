@@ -17,7 +17,7 @@ const Curriculo: NextPage = () => {
       <Header />
       <main className={styles.main}>
         <div className={styles.content}>
-          <span>Curriculo</span>
+          <h1 className={styles.title}>curriculo</h1>
         </div>
         <Footer />
       </main>
