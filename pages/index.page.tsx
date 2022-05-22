@@ -48,7 +48,7 @@ const Home: NextPage = () => {
             <br />
             Se quiser saber mais sobre meu trabalho vá para a página de
             <strong>
-              <a href="/portfolio">portfólio</a>
+              <a href="/portfolio"> portfólio</a>
             </strong>
             .
           </p>
