@@ -21,7 +21,6 @@ const Home: NextPage = () => {
 
       <Header />
       <main className={styles.main}>
-        <BackgroundLines className={styles.bgLines} />
         <section className={styles.content}>
           <h1 className={styles.title}>quem sou eu?</h1>
           <div className={styles.image}>

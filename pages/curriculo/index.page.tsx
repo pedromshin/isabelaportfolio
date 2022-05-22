@@ -16,7 +16,6 @@ const Curriculo: NextPage = () => {
       </Head>
 
       <Header />
-      <BackgroundLines className={styles.bgLines} />
       <main className={styles.main}>
         <section className={styles.content}>
           <h1 className={styles.title}>currículo</h1>

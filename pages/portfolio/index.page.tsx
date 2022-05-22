@@ -43,8 +43,6 @@ const Portfolio: NextPage = () => {
 
       <Header />
       <main className={styles.main}>
-        <BackgroundLines className={styles.bgLines} />
-
         <section className={styles.content}>
           <h1 className={styles.title}>portfolio</h1>
           <span className={styles.description}>
