@@ -8,6 +8,7 @@ import profilePic from "./images/profile.jpg";
 import BehanceSVG from "./images/behance.svg";
 import InstagramSVG from "./images/instagram.svg";
 import LinkedinSVG from "./images/linkedin.svg";
+import BackgroundLines from "./images/background_lines.svg";
 
 const Contato: NextPage = () => {
   const inputNameClass = [styles.input, styles.inputName].join(" ");
@@ -24,6 +25,7 @@ const Contato: NextPage = () => {
 
       <Header />
       <main className={styles.main}>
+        <BackgroundLines className={styles.bgLines} />
         <div className={styles.content}>
           <h1 className={styles.title}>se quiser falar comigo:</h1>
           <form action="" method="get" className={styles.form}>

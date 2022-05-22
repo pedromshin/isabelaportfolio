@@ -3,6 +3,7 @@ import Head from "next/head";
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 import styles from "./Portfolio.module.scss";
+import BackgroundLines from "./background_lines.svg";
 
 import Image from "next/image";
 
@@ -42,6 +43,8 @@ const Portfolio: NextPage = () => {
 
       <Header />
       <main className={styles.main}>
+        <BackgroundLines className={styles.bgLines} />
+
         <section className={styles.content}>
           <h1 className={styles.title}>portfolio</h1>
           <span className={styles.description}>

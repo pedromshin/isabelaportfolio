@@ -3,8 +3,7 @@ import Head from "next/head";
 import styles from "./Curriculo.module.scss";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
-import FullSVG from "../images/full_bar.svg";
-import HalfSVG from "../images/half_bar.svg";
+import BackgroundLines from "./background_lines.svg";
 
 const Curriculo: NextPage = () => {
   return (
@@ -17,6 +16,7 @@ const Curriculo: NextPage = () => {
       </Head>
 
       <Header />
+      <BackgroundLines className={styles.bgLines} />
       <main className={styles.main}>
         <section className={styles.content}>
           <h1 className={styles.title}>currículo</h1>

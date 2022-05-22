@@ -8,6 +8,8 @@ import homePhoto from "../public/home_photo.jpg";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 
+import BackgroundLines from "./images/background_lines.svg";
+
 const Home: NextPage = () => {
   return (
     <>
@@ -19,6 +21,7 @@ const Home: NextPage = () => {
 
       <Header />
       <main className={styles.main}>
+        <BackgroundLines className={styles.bgLines} />
         <section className={styles.content}>
           <h1 className={styles.title}>quem sou eu?</h1>
           <div className={styles.image}>
